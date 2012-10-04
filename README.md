@@ -21,7 +21,7 @@
 **Make absolutely sure to select the correct disk from he list of mounted disks output by the script.
 Selecting your system drive WILL overwrite it!**
 
-If you are unsure which which disk you need to select you can remove the SD card, check the mounted disks by running `df -hl` and 
+If you are unsure which disk you need to select you can remove the SD card, check the mounted disks by running `df -hl` and 
 then re-check after re-inserting the SD card.
 
 The disk name will likely be something similar to: `/dev/disk2s1`
