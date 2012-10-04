@@ -3,9 +3,6 @@
 # Raspberry PI Install Script
 # Author: Ray Viljoen
 
-# Get sudo early on
-#sudo echo ""
-
 # Quit on error
 set -e
 
@@ -115,14 +112,14 @@ _rawdisk=$( echo $_udisk | awk 'sub("..$", "")')
 
 # Unmount Disk
 echo "Unmounting Disk"
-sudo diskutil unmount $_udisk
+diskutil unmount $_udisk
 
 echo "Writing image"
 echo "Ctrl+T to see progress.."
-sudo dd bs=1m if=${DISTRO} of=${_rawdisk}
+dd bs=1m if=${DISTRO} of=${_rawdisk}
 
 # Eject disk
 echo "Ejecting Disk"
-sudo diskutil eject ${_rawdisk}
+diskutil eject ${_rawdisk}
 
 _info "All Done!"
