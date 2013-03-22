@@ -108,7 +108,7 @@ promptDisk
 # ===========================================================
 
 # Format disk name to raw format
-_rawdisk=$( echo $_udisk | awk 'sub("..$", "")')
+_rawdisk=$( echo $_udisk | awk 'sub("..$", "")' | sed 's/disk/rdisk/')
 
 # Unmount Disk
 echo "Unmounting Disk"
