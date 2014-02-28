@@ -18,7 +18,7 @@
 
 #####CAUTION:
 
-**Make absolutely sure to select the correct disk from he list of mounted disks output by the script.
+**Make absolutely sure to select the correct disk from the list of mounted disks output by the script.
 Selecting your system drive WILL overwrite it!**
 
 If you are unsure which disk you need to select you can remove the SD card, check the mounted disks by running `df -hl` and 
