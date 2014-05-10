@@ -75,7 +75,7 @@ function promptDisk() {
         # Increment counter
         ((i++))
 
-    done <<< "$(df -h)"
+    done <<< "$(df -lh | grep -v '/$')"
     echo -e "$_piline\n"
 
     _opts=''
