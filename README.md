@@ -4,7 +4,7 @@
 
 ---
 
-#####Usage:
+##### Usage:
 
 1. Simply execute the install script from Terminal and pass the image to write. (Image, not ZIP)
 
@@ -16,7 +16,7 @@
 
 ---
 
-#####CAUTION:
+##### CAUTION:
 
 **Make absolutely sure to select the correct disk from the list of mounted disks output by the script.
 Selecting your system drive WILL overwrite it!**
@@ -28,4 +28,4 @@ The disk name will likely be something similar to: `/dev/disk2s1`
 
 ---
 
-####[Download SD Card Images here.](http://www.raspberrypi.org/downloads)
+#### [Download SD Card Images here.](http://www.raspberrypi.org/downloads)
