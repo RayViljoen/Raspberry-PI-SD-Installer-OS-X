@@ -84,7 +84,7 @@ function promptDisk() {
     done
 
     # Ask user to select mounted disk
-    echo "Select the disk to use by enetering the disk number."
+    echo "Select the disk to use by entering the disk number."
     _warn "*** MAKE SURE YOU SELECT THE CORRECT DISK ***"
     _warn "*** Refer to the Readme if uncertain ***"
     echo -n -e "\nUse disk [ $_opts ] #"
