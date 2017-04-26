@@ -116,7 +116,7 @@ diskutil unmount $_udisk
 
 echo "Writing image"
 echo "Ctrl+T to see progress.."
-sudo dd bs=1m if=${DISTRO} of=${_rawdisk}
+sudo dd bs=1M if=${DISTRO} of=${_rawdisk}
 
 # Eject disk
 echo "Ejecting Disk"
